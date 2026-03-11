@@ -7,8 +7,8 @@ This project walks from **EDA → preprocessing → model training → evaluatio
 
 ## 📂 Project Overview
 
-- **Goal:** Learn and apply supervised regression to predict `MEDV` (Median value of owner‑occupied homes).  
-- **Dataset:** Classic *Boston Housing* dataset (506 rows, 13 features + target).[web:577][web:580]  
+- **Goal:** To Learn and apply supervised regression to predict `MEDV` (Median value of owner‑occupied homes).  
+- **Dataset:** Classic *Boston Housing* dataset (506 rows, 13 features + target). 
 - **Target:** `MEDV` – median house value (in \$1000s).  
 
 This is a learning‑focused project: I focus on understanding the data, handling outliers, comparing models, and interpreting metrics.
@@ -48,7 +48,7 @@ This is a learning‑focused project: I focus on understanding the data, handlin
    - Feature scaling with `StandardScaler` inside a `ColumnTransformer`
 
 3. **Models Trained**
-   - `RandomForestRegressor`
+   - `RandomForestRegressor` (in a Pipeline)
 
 4. **Evaluation Metrics**
    - **MAE** (Mean Absolute Error)  
