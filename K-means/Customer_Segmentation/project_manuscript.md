@@ -185,8 +185,6 @@ This allows us to label segments such as:
 - **Cluster 1** – medium spend and frequency → regular customers  
 - **Cluster 2** – high spend, high frequency, low recency → VIP / loyal customers  
 
-(Exact descriptions depend on the dataset; adjust based on `cluster_profile`.)
-
 ---
 
 ## 8. How to Run
